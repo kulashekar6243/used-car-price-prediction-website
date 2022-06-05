@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import seaborn as sns
+
 import matplotlib.pyplot as plt
 st.title("Used cars price prediction")
 df=pd.read_csv("train-data.csv")
